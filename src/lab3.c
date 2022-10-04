@@ -91,7 +91,7 @@ void drawSquadByCenter(GLdouble centerX, GLdouble centerY, GLdouble size) {
 
 void spinDisplay() {
   SPIN = SPIN + SPEED;
-  if (SPIN > 360.0) SPIN -= -360.0;
+  if (SPIN > 360.0) SPIN -= 360.0;
   glutPostRedisplay();
 }
 
